@@ -19,10 +19,12 @@
     "gulp-babel": "x.x",
     "gulp-load-plugins": "x.x",
     "babel-preset-es2015": "x.x",
-    "aws-sdk": "x.x"
+    "aws-sdk": "x.x",
+    "commander": "x.x"
   },
   "peerDependencies": {
-    "aws-sdk": "x.x"
+    "aws-sdk": "x.x",
+    "commander": "x.x"
   },
   "scripts": {
     "build": "electron-packager . selemene --platform=darwin,win32,linux --arch=x64",
