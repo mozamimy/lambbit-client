@@ -29,6 +29,6 @@
     "compile": "gulp compile"
   },
   "bin": {
-    "lammbit-client": "main.js"
+    "lambbit-client": "cmd_lambbit_client.js"
   }
 }
