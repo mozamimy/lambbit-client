@@ -26,13 +26,13 @@ Next, you should setup Lambda script according to https://github.com/mozamimy/la
 ## Quick start
 
 ```
-$ lammbit-client --bucket your_bucket_name --file /path/to/file/to/upload --to receiver@example.com --from sender@example.com --subject 'Gift for you!' --body 'Check it out :D' --expire 300
+$ lambbit-client --bucket your_bucket_name --file /path/to/file/to/upload --to receiver@example.com --from sender@example.com --subject 'Gift for you!' --body 'Check it out :D' --expire 300
 ```
 
 ## Options
 
 ```
-$ lammbit-client --help
+$ lambbit-client --help
 
   Usage: lammbit-client [options]
 
