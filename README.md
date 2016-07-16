@@ -12,7 +12,11 @@ A CLI friendly file uploading & sharing system with AWS S3 and AWS Lambda.
 Install lambbit-client by `npm` command.
 
 ```
-$ npm install lambbit-client
+$ git pull https://github.com/mozamimy/lambbit-client
+$ cd lambbit-client
+$ npm install
+$ npm run compile
+$ npm link
 ```
 
 Next, you should setup Lambda script according to https://github.com/mozamimy/lambbit-lambda
